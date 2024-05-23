@@ -47,8 +47,6 @@ public class AdminController {
 
         peopleService.createNewUser(person);
 
-        System.out.println("postCreate" + person);
-
         return "redirect:/admin";
     }
 
